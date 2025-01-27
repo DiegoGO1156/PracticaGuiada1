@@ -29,12 +29,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="/AgregarContacto/nuevoContacto.html">AgregarContacto</a>
                 </li>
-<<<<<<< HEAD
                 <li class="nav-item">
                   <a class="nav-link" href="/toDoList/listaTareas.html">Lista de Tareas</a>
               </li>
-=======
->>>>>>> feature/perfilUsuario
               </ul>
             </div>
           </div>
@@ -48,15 +45,7 @@
           <img src="/sources/images/login.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title" id="Usuario"></h5>
-<<<<<<< HEAD
-<<<<<<< HEAD
             <p class="card-text" id="Contraseña"></p>
-=======
-            <p class="card-text" id="Contraseña">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
->>>>>>> feature/toDoList
-=======
-            <p class="card-text" id="Contraseña">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
->>>>>>> feature/perfilUsuario
             <a class="btn btn-danger" id="logout">Cerrar sesión</a>
           </div>
         </div>
@@ -69,13 +58,7 @@
         if (username) {
           document.getElementById('Usuario').textContent =`Usuario: ${username}`;
           document.getElementById('Contraseña').textContent =`Contraseña usada: ${password}`;
-<<<<<<< HEAD
         } 
-=======
-        } else {
-            window.location.href = 'login.html';
-        }
->>>>>>> feature/perfilUsuario
         document.getElementById('logout').addEventListener('click', function() {
             localStorage.clear(); 
             window.location.href = '/IndexLogin.html';
